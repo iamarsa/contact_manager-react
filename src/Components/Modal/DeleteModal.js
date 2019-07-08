@@ -9,12 +9,12 @@ const deleteModal = props => {
       </Modal.Header>
       <Modal.Body>Are you sure you want to delete this contact?</Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={props.hide}>
-          Cancel
-        </Button>
-        <Button variant="primary" onClick={() => props.action(props.id)}>
+      <Button variant="primary" onClick={() => props.action(props.id)}>
           Delete
         </Button>
+        <Button variant="secondary" onClick={props.hide}>
+          Cancel
+        </Button>     
       </Modal.Footer>
     </React.Fragment>
   );

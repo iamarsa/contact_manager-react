@@ -56,6 +56,7 @@ const AddModal = props => {
       <Modal.Footer>
         <Button
           variant="primary"
+          disabled ={name.length === 0 || lastName.length === 0 || number.length === 0}
           onClick={() => props.submitAdd(name, lastName, number)}
         >
           Add contact
