@@ -1,0 +1,24 @@
+.Actions > * {
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+}
+.Actions > *:hover{
+  color:blue;
+   
+}
+.Actions{
+    width: 20%;
+}
+
+
+
+
+@media(min-width:550px){
+    .Actions {
+        width: 20%
+    }
+    .Actions > * {
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+    }
+}

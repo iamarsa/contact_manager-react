@@ -1,0 +1,42 @@
+
+.Icons {
+    width: 18px;
+    height: 18px;
+    margin:0 0.5rem;
+    
+}
+.Icons:hover{
+    color:darkcyan;
+}
+
+.Contact {
+    height: 10%;
+    font-size: 1rem;
+    
+}
+
+.TableData {
+
+    vertical-align: center;
+}
+
+@media(min-width:900px){
+    .Icons {
+        width: 25px;
+        height: 25px;
+        margin:0 0.5rem;
+        
+    }
+    
+    .Contact {
+        height: 10%;
+        font-size: 1.5rem;
+        vertical-align: center;
+    }
+
+    .TableData  {
+       margin-top:3rem;
+        vertical-align: center;
+      
+    }
+}
